@@ -1,0 +1,14 @@
+{
+  "extends": ["plugin:github/browser", "plugin:github/es6", "plugin:github/typescript"],
+  "globals": {
+    "AutoTextareaElement": "readable"
+  },
+  "overrides": [
+    {
+      "files": "test/**/*.js",
+      "rules": {
+        "github/unescaped-html-literal": "off"
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "auto-textarea-element",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Literally just a textarea web-component that resizes itself",
   "repository": "foodforarabbit/auto-textarea-element",
   "main": "dist/index.js",

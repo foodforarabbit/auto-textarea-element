@@ -14,8 +14,7 @@
     "build": "tsc",
     "pretest": "npm run build",
     "test": "karma start test/karma.config.cjs",
-    "prepublishOnly": "npm run build",
-    "postpublish": "npm publish --ignore-scripts"
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "web-component",
